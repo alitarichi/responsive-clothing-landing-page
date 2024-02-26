@@ -188,7 +188,22 @@ img {
 
 
 /*=============== HOME ===============*/
+.home {
+  background-color: var(--bg-color);
+  overflow: hidden;
+}
 
+.home__container {
+  padding: 4rem 0 1rem;
+  row-gap: 8.5rem;
+  }
+
+.home__title {
+  font-size: var(--biggest-font-size);
+  font-weight: 400;
+  }
+
+  
 
 /*=============== BUTTON ===============*/
 
