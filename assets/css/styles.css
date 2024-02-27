@@ -421,7 +421,7 @@ img {
 }
 
 .footer__content {
-  grid-template-columns: var(--h3-font-size);
+  grid-template-columns: repeat(2, max-content);
   gap: 3.5rem 3rem;
 }
 
@@ -456,11 +456,30 @@ img {
 
 .footer__social-link {
   display: inline-flex;
+  color: var(--title-color);
+  padding: .4rem;
+  background-color: var(--container-color);
+  font-size: 1.25rem;
+  transition: background-color .3s;
+}
+
+.footer__social-link:hover {
+  background-color: var(--bg-color-light);
 }
 
 .footer__info {
   margin-top: 6rem;
   padding-bottom: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: .75rem;
+}
+
+.footer__copy,
+.footer__privacy {
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
 }
 
 /*=============== SCROLL BAR ===============*/
