@@ -188,7 +188,9 @@ img {
 }
 
 /* Active link */
-
+.active-link {
+  color: var(--title-color);
+}
 
 /*=============== HOME ===============*/
 .home {
