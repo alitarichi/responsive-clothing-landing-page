@@ -88,10 +88,22 @@ img {
 
 /*=============== THEME ===============*/
 /*========== Variables Dark theme ==========*/
-
+body.dark-theme {
+  --bg-color: hsl(220, 18%, 78%);
+  --bg-color-light: hsl(220, 18%, 86%);
+  --title-color: hsl(220, 8%, 10%);
+  --text-color: hsl(220, 4%, 32%);
+  --text-color-light: hsl(220, 4%, 55%);
+  --body-color: hsl(220, 18%, 99%);
+  --container-color: hsl(220, 18%, 97%);
+}
 
 /*========== Button Dark/Light ==========*/
-
+.change-theme {
+  color: var(--title-color);
+  font-size: 1.125rem;
+  cursor: pointer;
+}
 
 /*========== 
     Color changes in some parts of 
@@ -504,7 +516,7 @@ img {
 .scrollup {
   position: fixed;
   right: 1rem;
-  bottom: 7.5rem;
+  bottom: -30%;
   background-color: var(--container-color);
   box-shadow: 0 8px 12px hsla(220, 18%, 45%, .15);
   display: inline-flex;
@@ -520,7 +532,9 @@ img {
 }
 
 /* Show Scroll Up*/
-
+.show-scroll {
+  bottom: 7.5rem;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
