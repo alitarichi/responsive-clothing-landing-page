@@ -98,6 +98,6 @@ const sr = ScrollReveal({
 
 sr.reveal('.home__data, .products__container, .footer__container, .footer__info');
 sr.reveal('.home__images', { delay: 600, origin: 'bottom' });
-sr.reveal('.new__card .brand__img', { interval: 100 });
+sr.reveal('.new__card, .brand__img', { interval: 100 });
 sr.reveal('.collection__explore:nth-child(1)', { origin: 'right' });
 sr.reveal('.collection__explore:nth-child(2)', { origin: 'left' }); 
